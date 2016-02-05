@@ -27,7 +27,7 @@ section {
 .jumbotron .showcase-img {
 	width: 75%;
 }
-#middle img {
+#middle img, #about img, #contact img{
 	width: 100%;
 	padding: 3px;
 	border: solid 1px #ccc;
@@ -47,6 +47,14 @@ section#feature ul li {
 	line-height: 2.0em;
 	list-style: none;
 }
+
+section#title-bar {
+	background: #1caa98;
+	height: 80px;
+	color: #FFFFFF;
+	padding: 0;
+}
+
 footer {
 	background:#333;
 	color:#FFFFFF;
