@@ -9,7 +9,7 @@ section {
 	color: #1caa98 !important;
 }
 .jumbotron {
-	background: url('../img/site_showcase_bg.jpg');
+	background: #1b222a url('../img/site_showcase_bg.jpg');
 	color: #FFFFFF;
 	height: 500px;
 	overflow: none;
@@ -31,6 +31,9 @@ section {
 	width: 100%;
 	padding: 3px;
 	border: solid 1px #ccc;
+}
+.big-logo {
+	width: 100%;
 }
 section#feature .h1 {
 	font-weight: 300;
@@ -71,6 +74,86 @@ footer a {
 footer p {
 	float: right;
 }
+
+
+/* Media Querries */
+
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 991px) {
+	.showcase-img {
+		display: none;
+	}
+}
+@media (min-width: 768px) and (max-width:990px) {
+	.jumbotron .app-btn {
+	width: 30%;
+	margin-right: 30px;
+	}
+	.jumbotron {
+		height: 400px;
+		background-size: 100% 100%;
+	}
+	.jumbotron h1 {
+		margin-top: 10px;
+	}
+}
+@media (max-width: 768px) {
+	.jumbotron {
+		height: 350px;
+		background-size: 100% 100%;
+	}
+	.jumbotron h1 {
+		margin-top: 45px;
+	}	
+}
+
+@media (max-width: 500px) {
+
+	.jumbotron {
+		height: 450px;
+		background: #1b222a;
+		text-align: center;
+	}
+	.jumbotron .app-btn {
+		width: 60%;
+		margin: 0 auto 30px auto;
+		display: block;
+	}
+	.col-md-4 {
+		margin-bottom: 20px;
+	}
+	section#feature ul {
+		padding: 0;
+
+	}
+	section#feature .h1 {
+		font-size: 24px;
+	}
+	section#feature ul li {
+		font-size: 100%;
+	}
+	
+	footer p, footer ul li {
+		font-size: 12px;
+		text-align: center;
+		
+	}
+	footer ul li {
+		padding-right: 0;
+	}
+	footer p {
+		float: none;
+		margin: 10px 0;
+	}
+}
+
+
+
+
+
+
 
 
 
